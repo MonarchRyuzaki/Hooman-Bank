@@ -2,7 +2,7 @@ import { quotes } from "../assets";
 import styles from "../style";
 
 const Feedback = ({ content, name, title, img }) => (
-  <div className="flex flex-col justify-evenly bg-discount-gradient transition duration-300 max-w-[370px] h-[395px] rounded-2xl px-10">
+  <div className="flex flex-col justify-evenly bg-discount-gradient transition duration-300 max-w-[370px] h-[395px] rounded-2xl px-10 md:my-0 my-4">
     <div className="">
       <img src={quotes} alt="quote" />
     </div>
